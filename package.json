@@ -22,5 +22,10 @@
   },
   "dependencies": {
     "commander": "^14.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^9.39.3",
+    "eslint-plugin-import": "^2.32.0",
+    "globals": "^17.4.0"
   }
 }

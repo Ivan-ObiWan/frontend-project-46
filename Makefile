@@ -15,3 +15,7 @@ test:
 	npm test
 
 .PHONY: install gendiff publish lint test
+
+lint:
+	npx eslint .
+
