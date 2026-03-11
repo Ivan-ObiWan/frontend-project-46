@@ -18,7 +18,10 @@
   },
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest",
+    "test:watch": "NODE_OPTIONS=--experimental-vm-modules npx jest --watch",
+    "test:coverage": "NODE_OPTIONS=--experimental-vm-modules npx jest --coverage",
+    "lint": "npx eslint ."
   },
   "dependencies": {
     "commander": "^14.0.3",
@@ -27,6 +30,7 @@
   "devDependencies": {
     "eslint": "^9.39.3",
     "eslint-plugin-import": "^2.32.0",
-    "globals": "^17.4.0"
+    "globals": "^17.4.0",
+    "jest": "^30.3.0"
   }
 }

@@ -2,20 +2,20 @@
 install:
 	npm ci
 
-gendiff:
-	node bin/gendiff.js
-
-publish:
-	npm publish --dry-run
-
-lint:
-	npx eslint .
-
 test:
 	npm test
 
-.PHONY: install gendiff publish lint test
+test-coverage:
+	npm run test:coverage
+
+test-watch:
+	npm run test:watch
 
 lint:
 	npx eslint .
+
+lint-fix:
+	npx eslint . --fix
+
+.PHONY: install test test-coverage test-watch lint lint-fix
 

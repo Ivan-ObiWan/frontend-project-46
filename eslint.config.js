@@ -1,25 +1,22 @@
-import js from "@eslint/js";
-import importPlugin from "eslint-plugin-import";
+import globals from 'globals';
 
 export default [
-  js.configs.recommended,
-
   {
-    plugins: {
-      import: importPlugin,
-    },
-
+    files: ['**/*.js'],
     languageOptions: {
-      ecmaVersion: "latest",
-      sourceType: "module",
+      ecmaVersion: 2022,
+      sourceType: 'module',
       globals: {
-      
-      },
+        ...globals.node,
+        ...globals.jest,
+        ...globals.es2021
+      }
     },
-    
     rules: {
-      ...importPlugin.configs.recommended.rules,
-     
-    },
-  },
+      'no-unused-vars': ['error', {
+        'argsIgnorePattern': '^_',
+        'varsIgnorePattern': '^_'
+      }]
+    }
+  }
 ];
