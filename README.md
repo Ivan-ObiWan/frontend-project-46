@@ -7,13 +7,7 @@
 [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Ivan-ObiWan_frontend-project-46&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Ivan-ObiWan_frontend-project-46)
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=Ivan-ObiWan_frontend-project-46&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=Ivan-ObiWan_frontend-project-46)
 
-## Sonar-scanner badges 
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Ivan-ObiWan_frontend-project-46&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Ivan-ObiWan_frontend-project-46)
-
-[![Quality gate](https://sonarcloud.io/api/project_badges/quality_gate?project=Ivan-ObiWan_frontend-project-46)](https://sonarcloud.io/summary/new_code?id=Ivan-ObiWan_frontend-project-46)
-
-[![SonarQube Cloud](https://sonarcloud.io/images/project_badges/sonarcloud-light.svg)](https://sonarcloud.io/summary/new_code?id=Ivan-ObiWan_frontend-project-46)
 
 ## Demo 
 
