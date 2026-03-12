@@ -2,6 +2,14 @@ import globals from 'globals';
 
 export default [
   {
+    ignores: [
+      'coverage/**',
+      'node_modules/**',
+      'dist/**',
+      '**/*.json'
+    ]
+  },
+  {
     files: ['**/*.js'],
     languageOptions: {
       ecmaVersion: 2022,
