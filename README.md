@@ -3,8 +3,6 @@
 
 [![Actions Status](https://github.com/Ivan-ObiWan/frontend-project-46/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Ivan-ObiWan/frontend-project-46/actions/workflows/hexlet-check.yml)
 
-[![Node CI](https://github.com/Ivan-ObiWan/frontend-project-46/actions/workflows/nodejs.yml/badge.svg)](https://github.com/Ivan-ObiWan/frontend-project-46/actions/workflows/nodejs.yml)
-
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Ivan-ObiWan_frontend-project-46&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Ivan-ObiWan_frontend-project-46)
 
 [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Ivan-ObiWan_frontend-project-46&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Ivan-ObiWan_frontend-project-46)
