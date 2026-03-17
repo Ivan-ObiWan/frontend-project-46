@@ -1,4 +1,3 @@
-
 ## nodejs-package
 
 [![Node CI](https://github.com/Ivan-ObiWan/frontend-project-46/actions/workflows/nodejs.yml/badge.svg)](https://github.com/Ivan-ObiWan/frontend-project-46/actions/workflows/nodejs.yml)
@@ -13,10 +12,14 @@
 
 ## Demo 
 
-### JSON
+### Gendiff  JSON-comparison demo
 
 [![asciicast](https://asciinema.org/a/dQ7DemsZGQ8Begb4.svg)](https://asciinema.org/a/dQ7DemsZGQ8Begb4)
 
-### YML
+### Gendiff  YML-comparison demo
 
 [![asciicast](https://asciinema.org/a/ay17XQr28lk1XTWD.svg)](https://asciinema.org/a/ay17XQr28lk1XTWD)
+
+### Gendiff recursive comparison demo
+
+[![asciicast](https://asciinema.org/a/Ewt1WxJCK4dl89lQ)](https://asciinema.org/a/Ewt1WxJCK4dl89lQ)
