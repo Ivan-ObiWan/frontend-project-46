@@ -39,8 +39,7 @@ const stylish = (diff, depth = 1) => {
   const indentSize = depth * 4;
   const signIndent = ' '.repeat(indentSize - 2);
   const plainIndent = ' '.repeat(indentSize);
-  const bracketIndent = ' '.repeat(indentSize);
-  
+
   const lines = diff.flatMap((item) => {
     switch (item.type) {
       case 'nested':
