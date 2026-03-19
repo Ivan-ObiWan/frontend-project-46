@@ -22,7 +22,7 @@
 
 ### Gendiff recursive comparison demo
 
-[![asciicast](https://asciinema.org/a/Ewt1WxJCK4dl89lQ)](https://asciinema.org/a/Ewt1WxJCK4dl89lQ)
+[![asciicast](https://asciinema.org/a/Ewt1WxJCK4dl89lQ.svg)](https://asciinema.org/a/Ewt1WxJCK4dl89lQ)
 
 ### Plain format demo
 
