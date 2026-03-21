@@ -1,14 +1,6 @@
-import globals from 'globals';
+import globals from 'globals'
 
 export default [
-  {
-    ignores: [
-      'coverage/**',
-      'node_modules/**',
-      'dist/**',
-      '**/*.json'
-    ]
-  },
   {
     files: ['**/*.js'],
     languageOptions: {
@@ -21,10 +13,9 @@ export default [
       }
     },
     rules: {
-      'no-unused-vars': ['error', {
-        'argsIgnorePattern': '^_',
-        'varsIgnorePattern': '^_'
-      }]
+      'no-unused-vars': ['warn', { 'argsIgnorePattern': '^_' }],
+      'no-undef': 'error',
+      'semi': ['error', 'never']
     }
   }
-];
+]

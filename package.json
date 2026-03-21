@@ -29,7 +29,8 @@
     "lodash": "^4.17.23"
   },
   "devDependencies": {
-    "eslint": "^9.39.3",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "eslint": "^9.39.4",
     "eslint-plugin-import": "^2.32.0",
     "globals": "^17.4.0",
     "jest": "^30.3.0"

@@ -1,41 +1,41 @@
-import _ from 'lodash';
+import _ from 'lodash'
 
 const stringify = (value) => {
   if (_.isPlainObject(value)) {
-    return '[complex value]';
+    return '[complex value]'
   }
   if (typeof value === 'string') {
-    return `'${value}'`;
+    return `'${value}'`
   }
-  return String(value);
-};
+  return String(value)
+}
 
 const plain = (diff, path = '') => {
   const lines = diff.flatMap((item) => {
-    const propertyPath = path ? `${path}.${item.key}` : item.key;
+    const propertyPath = path ? `${path}.${item.key}` : item.key
 
     switch (item.type) {
       case 'nested':
-        return plain(item.children, propertyPath);
+        return plain(item.children, propertyPath)
 
       case 'added':
-        return `Property '${propertyPath}' was added with value: ${stringify(item.value)}`;
+        return `Property '${propertyPath}' was added with value: ${stringify(item.value)}`
 
       case 'removed':
-        return `Property '${propertyPath}' was removed`;
+        return `Property '${propertyPath}' was removed`
 
       case 'changed':
-        return `Property '${propertyPath}' was updated. From ${stringify(item.oldValue)} to ${stringify(item.newValue)}`;
+        return `Property '${propertyPath}' was updated. From ${stringify(item.oldValue)} to ${stringify(item.newValue)}`
 
       case 'unchanged':
-        return [];
+        return []
 
       default:
-        return [];
+        return []
     }
-  });
+  })
 
-  return lines.join('\n');
-};
+  return lines.join('\n')
+}
 
-export default plain;
+export default plain
