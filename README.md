@@ -27,3 +27,7 @@
 ### Plain format demo
 
 [![asciicast](https://asciinema.org/a/6yZx3SvqjRtRiep4.svg)](https://asciinema.org/a/6yZx3SvqjRtRiep4)
+
+### JSON format demo 
+
+[![asciicast](https://asciinema.org/a/EHYHd4FbeqZYSGkb.svg)](https://asciinema.org/a/EHYHd4FbeqZYSGkb)

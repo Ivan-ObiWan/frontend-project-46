@@ -109,3 +109,23 @@ test('gendiff plain format with yaml', () => {
   const result = genDiff(filepath1, filepath2, 'plain');
   expect(result).toBe(expected);
 });
+
+test('gendiff json format', () => {
+  const filepath1 = getFixturePath('file1-nested.json');
+  const filepath2 = getFixturePath('file2-nested.json');
+  const expected = readFile('expected-json.txt');
+
+  const result = genDiff(filepath1, filepath2, 'json');
+
+  expect(JSON.parse(result)).toEqual(JSON.parse(expected));
+});
+
+test('gendiff json format with yaml', () => {
+  const filepath1 = getFixturePath('file1-nested.yml');
+  const filepath2 = getFixturePath('file2-nested.yml');
+  const expected = readFile('expected-json.txt');
+
+  const result = genDiff(filepath1, filepath2, 'json');
+
+  expect(JSON.parse(result)).toEqual(JSON.parse(expected));
+});
