@@ -49,4 +49,4 @@ const formatValue = (value, depth) => {
   return `{\n${entries.join('\n')}\n${bracketIndent}}`
 }
 
-export default (diff) => `{\n${stylish(diff, 1)}\n}`
+export default diff => `{\n${stylish(diff, 1)}\n}`

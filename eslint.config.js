@@ -9,13 +9,13 @@ export default [
       globals: {
         ...globals.node,
         ...globals.jest,
-        ...globals.es2021
-      }
+        ...globals.es2021,
+      },
     },
     rules: {
       'no-unused-vars': ['warn', { 'argsIgnorePattern': '^_' }],
       'no-undef': 'error',
-      'semi': ['error', 'never']
-    }
-  }
+      'semi': ['error', 'never'],
+    },
+  },
 ]
