@@ -22,7 +22,7 @@ const stylish = (diff, depth = 1) => {
       case 'changed':
         return [
           `${signIndent}- ${item.key}: ${formatValue(item.oldValue, depth + 1)}`,
-          `${signIndent}+ ${item.key}: ${formatValue(item.newValue, depth + 1)}`
+          `${signIndent}+ ${item.key}: ${formatValue(item.newValue, depth + 1)}`,
         ]
 
       default:
